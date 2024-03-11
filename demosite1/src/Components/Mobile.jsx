@@ -1,10 +1,11 @@
-function Mobile(props)
+function Mobile(obj)
 {
+    const {Brand="Oneplus",Details,price}=obj;
     return(
         <div>
-            <h1>{props.Brand}</h1>
-            <span>{props.Details}</span>
-            <h1>{props.price}</h1>
+            <h1>{Brand}</h1>
+            <span>{Details}</span>
+            <h1>{price}</h1>
         </div>
     );
 }
