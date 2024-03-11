@@ -10,7 +10,7 @@ function App() {
 
   function SetData()
   {
-    SetContent(7755);
+    SetContent(displaycontent+5);
   }
   return (
     /*<div className="App">
@@ -40,6 +40,7 @@ function App() {
     </div>*/
     <>
       <h1>{displaycontent}</h1>
+      <h1>Hello World</h1>
       <button onClick={SetData}>Click Button</button>
     </>
   );
