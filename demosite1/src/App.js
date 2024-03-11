@@ -2,7 +2,7 @@ import './App.css';
 import "./Components/Sample";
 import Sample from './Components/Sample';
 import Model from './Components/Mobile';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function App() {
   const tech="React-JS";
