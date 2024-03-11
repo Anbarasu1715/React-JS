@@ -1,6 +1,7 @@
 import './App.css';
 import "./Components/Sample";
 import Sample from './Components/Sample';
+import Model from './Components/Mobile';
 
 function App() {
   const tech="React-JS";
@@ -24,10 +25,11 @@ function App() {
 
     <div className='App'>
       <h1>Welcome to {tech}</h1>
-      <Sample/>
-      <Sample/>
-      <Sample/>
-      <Sample/>
+      <Model Brand="Oneplus" Details="CE 3" price="30K"></Model>
+      <Model Brand="Samsung" Details="Ultra S24" price="130K"></Model>
+      <Model Brand="Apple" Details="13 pro max" price="150K"></Model>
+      <Model Brand="Oneplus" Details="CE 3" price="30K"></Model>
+      <Model Brand="Oneplus" Details="CE 3" price="30K"></Model>
     </div>
   );
 }
