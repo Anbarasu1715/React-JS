@@ -25,7 +25,7 @@ function App() {
 
     <div className='App'>
       <h1>Welcome to {tech}</h1>
-      <Model Brand="Oneplus" Details="CE 3" price="30K"></Model>
+      <Model address="https://c4.wallpaperflare.com/wallpaper/586/603/742/minimalism-4k-for-mac-desktop-wallpaper-preview.jpg" Brand="Oneplus" Details="CE 3" price="30K"></Model>
       <Model Brand="Samsung" Details="Ultra S24" price="130K"></Model>
       <Model Brand="Apple" Details="13 pro max" price="150K"></Model>
       <Model Brand="Oneplus" Details="CE 3" price="30K"></Model>
